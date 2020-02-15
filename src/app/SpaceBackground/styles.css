@@ -1,0 +1,9 @@
+.space-background {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.ytplayer {
+    pointer-events: none;
+}

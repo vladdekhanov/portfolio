@@ -1,3 +1,9 @@
 import React from 'react';
 
-export const App = () => (<div>test</div>);
+import {SpaceBackground} from './SpaceBackground';
+
+import './styles.css';
+
+export const App = () => (<div className="app">
+    <SpaceBackground />
+</div>);
