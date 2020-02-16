@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://vladislavdekhanov.xyz",
   "scripts": {
     "start": "parcel index.html",
+    "predeploy": "rm -rf dist && npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dekhanov Vladislav (vladdexx@yandex.ru)",
@@ -12,5 +16,9 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.2.0"
   }
 }
