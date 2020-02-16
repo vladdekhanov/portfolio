@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA,KACI,QACJ,CAEA,MACI,YACJ","file":"app.f787ee03.css","sourceRoot":"..","sourcesContent":["body {\n    margin: 0;\n}\n\n#root {\n    height: 100vh;\n}"]}
