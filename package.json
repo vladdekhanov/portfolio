@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://vladislavdekhanov.xyz",
   "scripts": {
     "start": "parcel index.html",
     "predeploy": "rm -rf dist && npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "cp CNAME dist/CNAME && gh-pages -d dist",
     "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

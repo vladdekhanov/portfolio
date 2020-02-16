@@ -1,6 +1,8 @@
 import React from 'react';
 
-import spaceCraftVideo from './assets/moon-astronaut-spacecraft.webm';
+import video1 from './assets/1.webm';
+import video2 from './assets/2.webm';
+
 import './styles.css';
 
 /**
@@ -8,8 +10,10 @@ import './styles.css';
  */
 export const SpaceBackground = () => {
     return (
-        <video className="space-background" autoPlay loop muted>
-            <source src={spaceCraftVideo} type="video/webm"></source>
-        </video>
+        <div className="space-background-container">
+            <video className="space-background" autoPlay loop muted>
+                <source src={video1} type="video/webm"></source>
+            </video>
+        </div>
     )
 };
