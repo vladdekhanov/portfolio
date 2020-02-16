@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,kBACI,iBAAkB,CAClB,YAAa,CACb,WACJ,CAEA,UACI,mBACJ,CARA,KACI,WACJ","file":"src.1c6980fa.css","sourceRoot":"..","sourcesContent":[".space-background {\n    position: absolute;\n    height: 100vh;\n    width: 100vw;\n}\n\n.ytplayer {\n    pointer-events: none;\n}"]}
