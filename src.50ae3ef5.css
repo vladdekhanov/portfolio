@@ -1,0 +1,2 @@
+.space-background{height:auto;width:100%}.space-background-container{position:absolute;width:100vw;height:100vh}.space-background-container:before{content:"";position:absolute;background:rgba(0,0,0,.2);top:0;right:0;bottom:0;left:0}.panel{position:absolute;height:100vh;right:200px;width:300px;margin:0;overflow:hidden;padding:2rem;color:#fff;font:1.3rem Inconsolata,monospace;text-shadow:0 0 5px #c8c8c8}.app{height:100%}
+/*# sourceMappingURL=/src.50ae3ef5.css.map */
