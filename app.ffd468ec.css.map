@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA,KACI,QAAS,CACT,wBACJ,CAEA,MACI,YACJ","file":"app.ffd468ec.css","sourceRoot":"..","sourcesContent":["body {\n    margin: 0;\n    background-color: #060206;\n}\n\n#root {\n    height: 100vh;\n}"]}
