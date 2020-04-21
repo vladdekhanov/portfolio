@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #060206;
+    overflow: hidden;
 }
 
 #root {
