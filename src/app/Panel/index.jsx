@@ -13,6 +13,7 @@ export const Panel = () => {
             strings: getPanelMessage(),
             typeSpeed: 20,
             backSpeed: 30,
+            backDelay: 5000,
             loop: true
         });
 
