@@ -1,13 +1,45 @@
 .panel {
     position: absolute;
-    height: 100vh;
-    right: 200px;
-    width: 300px;
-    margin: 0;
+    right: 15vw;
+    top: calc(20vh - 10vw);
+    width: 15em;
     overflow: hidden;
     padding: 2rem;
     color: white;
     font: 1.3rem Inconsolata, monospace;
     text-shadow: 0 0 5px #C8C8C8;
 }
+
+@media only screen and (max-width: 2560px) {
+    .panel {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .panel {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .panel {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .panel {
+        top: 30vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .panel {
+        top: 65vh;
+        right: 0;
+        left: 5vw;
+    }
+}
+
 

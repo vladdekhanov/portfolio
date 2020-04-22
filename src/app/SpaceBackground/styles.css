@@ -6,7 +6,9 @@
 .space-background-container {
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
 }
 
 .space-background-container:before {
