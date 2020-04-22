@@ -24,13 +24,14 @@
 
 @media only screen and (max-width: 1400px) {
     .panel {
-        font-size: 0.8em;
+        font-size: 1.2em;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .panel {
         top: 30vh;
+        font-size: 0.8em;
     }
 }
 
