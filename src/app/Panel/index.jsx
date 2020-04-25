@@ -14,7 +14,7 @@ export const Panel = () => {
             typeSpeed: 20,
             backSpeed: 30,
             backDelay: 5000,
-            loop: true
+            loop: false
         });
 
         return () => {

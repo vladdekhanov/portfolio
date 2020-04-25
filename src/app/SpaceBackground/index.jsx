@@ -29,7 +29,7 @@ export const SpaceBackground = () => {
                 className="space-background"
                 onEnded={onEndedVideo}
                 ref={videoRef}
-                preload="ыmetadata"
+                preload="metadata"
                 muted
                 autoPlay
                 playsInline

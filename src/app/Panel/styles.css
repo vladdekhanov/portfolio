@@ -2,12 +2,16 @@
     position: absolute;
     right: 15vw;
     top: calc(20vh - 10vw);
-    width: 15em;
+    width: 20em;
     overflow: hidden;
     padding: 2rem;
     color: white;
     font: 1.3rem Inconsolata, monospace;
     text-shadow: 0 0 5px #C8C8C8;
+}
+
+.panel a:link, .panel a:visited, .panel a:hover, .panel a:active {
+    color: white;
 }
 
 @media only screen and (max-width: 2560px) {
