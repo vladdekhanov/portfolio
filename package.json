@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --https",
     "predeploy": "rm -rf dist && npm run build",
     "deploy": "cp CNAME dist/CNAME && gh-pages -d dist",
     "build": "parcel build index.html",
