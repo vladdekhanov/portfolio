@@ -1,9 +1,11 @@
+import {format} from 'timeago.js';
+
 export const getPanelMessage = () =>
     [
-        'Landing on the frontend...^1000\n' +
-        '`1 November 2013`^1000\n' +
-        '`Vladislav Dekhanov`^1000\n' +
-        '`vladdexx@yandex.ru`^1000\n' +
+        'Event: Landing on the frontend...^1000\n' +
+        '`Date: 1 November 2013 (' + format('2013-11-01', 'en_US') + '`)^1000\n' +
+        '`Name: Vladislav Dekhanov`^1000\n' +
+        '`Contacts: vladdexx@yandex.ru`^1000\n' +
         '`[<a target="_blank" href="https://www.linkedin.com/in/vladislav-dekhanov-87516880/">linkedIn</a>]`' +
         '`[<a target="_blank" href="https://github.com/vladdekhanov">github</a>`]' +
         '`[<a target="_blank" href="https://twitter.com/vladdekhanov_en">twitter</a>]`' +
