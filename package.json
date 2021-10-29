@@ -13,6 +13,7 @@
   "author": "Dekhanov Vladislav (vladdexx@yandex.ru)",
   "license": "ISC",
   "dependencies": {
+    "parcel": "^1.12.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "timeago.js": "^4.0.2",
