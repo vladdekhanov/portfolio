@@ -10,5 +10,5 @@ export const getPanelMessage = () =>
         '`[<a target="_blank" href="https://www.linkedin.com/in/vladislav-dekhanov-87516880/">linkedIn</a>]`' +
         '`[<a target="_blank" href="https://github.com/vladdekhanov">github</a>`]' +
         '`[<a target="_blank" href="https://twitter.com/vladdekhanov_en">twitter</a>]`' +
-        '`[<a target="_blank" href="https://medium.com/@digitalmood">medium</a>]`'
+        '`[<a target="_blank" href="https://www.indiehackers.com/dekhanov">Indiehackers</a>]`'
     ];
